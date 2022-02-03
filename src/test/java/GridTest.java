@@ -31,7 +31,8 @@ public class GridTest {
         caps.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
 
         driver = new RemoteWebDriver(new URL(Node), caps);
-
+//        WebDriverManager.chromedriver().setup();
+//        driver = new ChromeDriver();
         // run against chrome
         driver.get(URL);
         System.out.println(driver.getTitle());
