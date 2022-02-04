@@ -11,7 +11,7 @@ import java.net.URL;
 public class GridTest {
     public WebDriver driver;
     String URL = "https://demoqa.com/";
-    String Node = "http://0.0.0.0:4444/";
+    String Node = "https://0dda-94-124-162-20.ngrok.io";
 
     @Test
     public void main() throws MalformedURLException {
